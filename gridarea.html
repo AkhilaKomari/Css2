@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         *{
+            margin-top: 0px;
+            margin-bottom: 0px;
+            margin-left: 100px;
+            background-color: black;
+        }
+     .parent{
+            height: 100px;
+            width: 600px;
+            gap:5px;
+            display: grid;
+            grid-template-areas: 
+            'child1 child1 child1 child2 child2 child3'
+            'child1 child1 child1 child2 child2 child3'
+            'child1 child1 child1 child2 child2 child3'
+            'child1 child1 child1 child2 child2 child4'
+            'child1 child1 child1 child5 child5 child4'
+            'child1 child1 child1 child5 child5 child6'
+            'child1 child1 child1 child5 child5 child6'
+            'child1 child1 child1 child5 child5 child6'
+            'child1 child1 child1 child7 child7 child7'
+            'child8 child8 child9 child7 child7 child7'
+            'child8 child8 child9 child7 child7 child7'
+            'child8 child8 child10 child7 child7 child7'
+            'child8 child8 child10 child7 child7 child7'
+            'child11 child11 child12 child7 child7 child7'
+            'child11 child11 child12 child7 child7 child7'
+            'child11 child11 child13 child7 child7 child7'
+            'child11 child11 child13 child14 child14 child15'
+            'child16 child16 child16 child14 child14 child15'
+            'child16 child16 child16 child14 child14 child17'
+            'child16 child16 child16 child18 child18 child17'
+            'child16 child16 child16 child18 child18 child19'
+            'child16 child16 child16 child18 child18 child19'
+            'child16 child16 child16 child18 child18 child19'
+            'child20 child20 child20 child20 child21 child21'
+            'child20 child20 child20 child20 child21 child21'
+            'child20 child20 child20 child20 child21 child21'
+            'child20 child20 child20 child20 child22 child22'
+            'child20 child20 child20 child20 child22 child22'
+            'child20 child20 child20 child20 child22 child22'
+            'child20 child20 child20 child20 child23 child23'
+            'child20 child20 child20 child20 child23 child23'
+            'child20 child20 child20 child20 child23 child23';
+        }
+        .parent>img{
+            height: 100%;
+            width: 100%;
+            border: 2px solid white;
+        }
+        .child1{
+            grid-area: child1;
+        }
+        .child2{
+            grid-area: child2; 
+        }
+        .child3{
+            grid-area: child3;
+        }
+        .child4{
+            grid-area: child4;
+        }
+        .child5{
+            grid-area: child5;    
+        }
+        .child6{
+            grid-area: child6;    
+        }
+        .child7{
+            grid-area: child7;   
+        }
+        .child8{
+            grid-area: child8;  
+        }
+        .child9{
+            grid-area: child9;  
+        }
+        .child10{
+            grid-area: child10;    
+        }
+        .child11{
+            grid-area: child11;    
+        }
+        .child12{
+            grid-area: child12;    
+        }
+        .child13{
+            grid-area: child13; 
+        }
+        .child14{
+            grid-area: child14;   
+        }
+        .child15{
+            grid-area: child15;   
+        }
+        .child16{
+            grid-area: child16;  
+        }
+        .child17{
+            grid-area: child17; 
+        }
+        .child18{
+            grid-area: child18;  
+        }
+        .child19{
+            grid-area: child19;   
+        }
+        .child20{
+            grid-area: child20;   
+        }
+        .child21{
+            grid-area: child21;    
+        }
+        .child22{
+            grid-area:child22;  
+        }
+        .child23{
+            grid-area: child23;   
+        }
+</style>
+</head>
+<body>
+    <div class="parent">
+    <img src="https://images.pexels.com/photos/56866/garden-rose-red-pink-56866.jpeg?cs=srgb&dl=pexels-pixabay-56866.jpg&fm=jpg" alt="" class="child1">
+    <img src="https://www.thespruce.com/thmb/c3znkzZgMeuvzBy4wH13jVllfUo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/plants-with-big-flowers-4138211-hero-b10becb169064cc4b3c7967adc1b22e1.jpg" alt="" class="child2">
+    <img src="https://hips.hearstapps.com/hmg-prod/images/sacred-lotus-gettyimages-1143403162-646fa5a441f5d.jpg?crop=1xw:0.84375xh;0,0.231xh" alt="" class="child3">
+    <img src="https://www.epicgardening.com/wp-content/uploads/2022/04/Purple-Flower-in-Garden-1600x900.jpg" alt="" class="child4">
+    <img src="https://t3.ftcdn.net/jpg/06/16/34/92/360_F_616349295_hw3oZYyNeRrz2s1h2n6x5fBLwHUA4Gpw.jpg" alt="" class="child5">
+    <img src="https://www.thespruce.com/thmb/0H60G9gipmeXfXlqijtr8k7Y958=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/thespruce-prettiestflowers-plumeria-57dc49b8d9ab4f8a9fbc1e517e7401ae.jpg" alt="" class="child6">
+    <img src="https://m.media-amazon.com/images/I/71W6eujtHsL._SY879_.jpg" alt="" class="child7">
+    <img src="https://m.media-amazon.com/images/I/415LUtHtXiL.jpg" alt="" class="child8">
+    <img src="https://m.media-amazon.com/images/I/61plnfhFl3L._AC_UF1000,1000_QL80_.jpg" alt="" class="child9">
+    <img src="https://www.gardendesign.com/pictures/images/675x529Max/site_3/paradiso-pink-mum-fall-flower-proven-winners_14469.jpg" alt="" class="child10">
+    <img src="https://2.imimg.com/data2/QU/HN/MY-4144587/lily-flowers.jpg" alt="" class="child11">
+    <img src="https://www.newsg24.com/uploadFile/05f81_e6f6093337_long.jpg" alt="" class="child12">
+    <img src="https://www.bettergiftflowers.com/wp-content/uploads/2017/09/evocative-bouquet-of-10-red-roses.jpg" alt="" class="child13">
+    <img src="https://cdnnew.interflora.in/f_auto,q_auto,t_pnopt6prodlp/products/p-pouring-love-in-vase-valentine-s-gift-153267-m.jpg" alt="" class="child14">
+    <img src="https://floristcenter.in/wp-content/uploads/2017/06/5.-with-love.jpeg" alt="" class="child15">
+    <img src="https://images.unsplash.com/photo-1455735045686-c4992baa162e?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cmFpbiUyMGRyb3BzJTIwaW4lMjBmbG93ZXJ8ZW58MHx8MHx8fDA%3D&fm=jpg&q=60&w=3000" alt="" class="child16">
+    <img src="https://www.shutterstock.com/image-photo/snow-peach-flowers-branches-flowering-260nw-1681391338.jpg" alt="" class="child17">
+    <img src="https://dukaan.b-cdn.net/700x700/webp/media/3044c893-d4e7-428d-8bdd-5cd17f3b8b93.png" alt="" class="child18">
+    <img src="https://m.media-amazon.com/images/I/51x37831XXL._AC_UF1000,1000_QL80_.jpg" alt="" class="child19">
+    <img src="https://beejwala.com/cdn/shop/files/Kadamba_Plant_2_800x.webp?v=1740577520" alt="" class="child20">
+    <img src="https://www.bunnycart.com/media/catalog/product/cache/87fa2ad75e2803275de448de32c97f97/w/h/white_water_lily.jpg" alt="" class="child21">
+    <img src="https://www.amazingherbgarden.com/wp-content/uploads/2019/11/rosemary-flowers-pink-color-tiny.jpg" alt="" class="child22">
+    <img src="https://m.media-amazon.com/images/I/81d5dcLBJRS._AC_UF1000,1000_QL80_.jpg" alt="" class="child23">
+   </div>
+</body>
+</html>
